@@ -9,13 +9,13 @@ public class Main {
         System.out.println("Сумма трат за месяц составила " + sum + " рублей");
         System.out.println("Задача 2.");
         int[] arr2 = {10000, 10500, 12300, 23400, 5000};
-        int max = -1;
+        int max = arr2[0];
         for (final int current : arr2) {
             if (current > max) {
                 max = current;
             }
         }
-        int min = 999999;
+        int min = arr2[0];
         for (final int current : arr2) {
             if (current < min) {
                 min = current;
